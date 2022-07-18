@@ -5,7 +5,9 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+
 using namespace std;
+using namespace MWPE;
 
 pair< Graph, vector<double> > CreateRandomGraph()
 {

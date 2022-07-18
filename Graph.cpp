@@ -1,5 +1,9 @@
 #include "Graph.h"
 
+using namespace std;
+
+namespace MWPE {
+
 Graph::Graph(int n, const list< pair<int, int> > & edges):
 	n(n),
 	m(edges.size()),
@@ -79,3 +83,4 @@ const vector< vector<bool> > & Graph::AdjMat() const
 	return adjMat;
 }
 
+}

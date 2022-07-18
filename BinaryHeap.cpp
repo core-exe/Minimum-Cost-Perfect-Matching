@@ -1,5 +1,7 @@
 #include "BinaryHeap.h"
 
+namespace MWPE{
+
 void BinaryHeap::Clear()
 {
 	key.clear();
@@ -91,3 +93,4 @@ void BinaryHeap::Remove(int s)
 	DeleteMin();
 }
 
+}

@@ -1,5 +1,9 @@
 #include "Matching.h"
 
+using namespace std;
+
+namespace MWPE {
+
 Matching::Matching(const Graph & G):
 	G(G),
 	outer(2*G.GetNumVertices()),
@@ -618,4 +622,6 @@ list<int> Matching::RetrieveMatching()
 			matching.push_back(i);
 	}
 	return matching;
+}
+
 }
