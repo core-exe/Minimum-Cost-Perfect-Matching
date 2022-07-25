@@ -1,6 +1,6 @@
 #include "BinaryHeap.h"
 
-namespace MWPE{
+namespace MWPM{
 
 void BinaryHeap::Clear()
 {

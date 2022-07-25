@@ -2,7 +2,7 @@
 
 using namespace std;
 
-namespace MWPE {
+namespace MWPM {
 
 Matching::Matching(const Graph & G):
 	G(G),

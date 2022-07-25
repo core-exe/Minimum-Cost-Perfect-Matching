@@ -7,7 +7,7 @@
 #include <sstream>
 
 using namespace std;
-using namespace MWPE;
+using namespace MWPM;
 
 pair< Graph, vector<double> > CreateRandomGraph()
 {

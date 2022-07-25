@@ -9,7 +9,7 @@
 #define ODD 1
 #define UNLABELED 0
 
-namespace MWPE {
+namespace MWPM {
 
 class Matching
 {

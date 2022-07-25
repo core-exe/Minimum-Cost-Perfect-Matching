@@ -2,7 +2,7 @@
 
 using namespace std;
 
-namespace MWPE {
+namespace MWPM {
 
 Graph::Graph(int n, const list< pair<int, int> > & edges):
 	n(n),
